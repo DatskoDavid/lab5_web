@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: #DEB887;
+}
+
+h1 {
+    font-family: 'Calibiri', sans-serif;
+}
+
+.form-header {
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 3px solid blue;
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form {
+    border-radius: 10px;
+    margin: 5px auto;
+    width: 720px;
+    border: 1px solid #B2BBC0;
+    background-color: #FFEBCD;
+    box-shadow: 5px 5px 3px 0 #292525;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.form-control h3 {
+    color: #4169E1;
+    margin-left: 5px;
+}
+
+
+.form-control label {
+    align-items: center;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.form-input {
+    border: 1px solid #c4c4c4;
+    width: 300px;
+    border-radius: 5px;
+    height: 2.75em;
+    margin: 1em;
+}
+
+meter {
+    margin: auto;
+    height: 20px !important;
+    width: 90% !important;
+}
+
+progress {
+    margin: auto;
+    height: 20px !important;
+    width: 90% !important;
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+.form-checkboxes {
+    flex-direction: row;
+    padding: 5px 0 5px 5px;
+    font-weight: lighter;
+}
+
+.submit-btn {
+    margin: 10px auto;
+    padding: 15px 130px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: #009000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    color: red;
+    background-color: darkgreen;
+    border: 1px solid #009000;
+    transform: scale(1.05);
+    font-weight: bolder;
+    transition: 300ms;
+}
+
+.radio-form {
+    border: 1px solid #B2BBC0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.question {
+    color: #9b9b9b;
+    margin: 0;
+}
+
+h5 {
+    margin: 1px;
+}
